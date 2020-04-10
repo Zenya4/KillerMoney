@@ -1,0 +1,35 @@
+# Please check documentation at https://github.com/diecode/KillerMoney/blob/master/docs/Config.md
+# Do not modify this
+Config-version: 5
+
+Check-update: true
+Global-settings:
+    Money:
+        Decimal-places: 2
+        Item-drop:
+            Enabled: false
+            Item-name: "&c${amount}"
+            Item-material: GOLD_INGOT
+            Anyone-can-pick-it-up: true
+    Farming:
+        Disable-spawner-farming: true
+        Disable-spawner-egg-farming: false
+    General:
+        Message-method: CHAT
+        Allowed-gamemodes: SURVIVAL, CREATIVE
+    Limit:
+        Reset-time: 24
+        Reached-limit-message: true
+Configurable-permissions:
+    Money-multipliers:
+        donator: 1.5
+        vip: 2
+        elite: 2.5
+    Limit-multipliers:
+        donator: 1.5
+        vip: 2
+        elite: 2.5
+Hook:
+    MobArena:
+        Enabled: false
+        Disable-rewards-in-arena: true

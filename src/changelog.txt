@@ -1,0 +1,83 @@
+4.5.0
+---
+- (Added) 1.15 support
+- (Fixed) Sum reward at item stack merging
+
+4.4.0
+---
+- (Added) 1.14 support
+- (Fixed) Missed wither lang string
+
+4.3.2
+---
+- (Added) Magma cube and vindicator
+
+4.3.1
+---
+- (Fixed) Message on player death event
+- (Fixed) Default config version
+
+4.3.0
+---
+- (Added) 1.13 support
+
+4.2.0
+---
+- (Added) "DISABLED" option for Message-method in config
+- (Added) Custom exp drop
+- (Added) Player config file for future updates
+- (Modification) Admin commands -> /kmadmin, players command -> /km
+- (Modification) Changed few string id in language file
+- (Modification) Hopper cannot pickup money item anymore
+- (Fixed) Division-method in player cash transfer section
+
+4.1.2
+---
+- (Fixed) When killer left the server and any other player want pick up money item then the server drop null pointer exception
+
+4.1.1
+---
+- (Fixed) Config loading when the server is not spigot or spigot fork
+- (Fixed) Player could change money item name
+
+4.1.0
+---
+- (Added) Minecraft 1.12 support (Added parrot and ACTION_BAR compatibility)
+- (Added) "Anyone-can-pick-it-up" option for money item drop in config
+- (Added) Built-in versioning system for better plugin update
+- (Added) Minimal API (WIP)
+- (Modified) Changed values in default config: "Disable-spawner-egg-farming: false" and "Allowed-gamemodes: SURVIVAL, CREATIVE"
+- (Fixed) Major money and limit multiplier bug
+- (Fixed) Update check
+- (Fixed) Plugin loading when economy or vault not installed
+
+4.0.2
+---
+- (Fixed) Update checker
+
+4.0.1
+---
+- (Fixed) Random-method in Command and Item section
+
+4.0.0
+---
+- (Added) Action bar message method
+- (Added) Money, item and command execution limit
+- (Added) Money item drop
+- (Added) Money, item and command execution setup possibility / world
+- (Added) "Enabled" options in entities config
+- (Added) Random amount for item drop
+- (Added) Run method (ALL or RANDOM)
+- (Added) Division mode (LAST_HIT or SHARED)
+- (Added) Rational number usage in chance and multiplier permissions
+- (Added) Permission setup for money, items, commands
+- (Added) Permissions for money multiplier and limit bypass
+- (Added) /km multiplier command
+- (Added) /km limit command
+- (Modified) Using semver versioning schema
+- (Modified) Changed mcstats to bstats
+- (Modified) Default config, entities config and language config structure
+- (Removed) Integrated translations
+- (Removed) Reward when a player falled into void
+- (Removed) "Lose" section in player entity (It will be available later)
+- (Removed) Modded server support
